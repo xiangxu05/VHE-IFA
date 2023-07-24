@@ -1,10 +1,6 @@
 # Visualizing the Process of Hieroglyphic Evolution with Inter-Frame Attention
 
-> We constructed a dataset called ”Oracle to Simplified Chinese” (OtSC105) for the evolution of the oracle bone script to simplified Chinese characters. An image generation algorithm based on EMA-VFI was employed to enable the visualization of the evolution process.
-
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+> This study constructed a data set named Oracle to Simplified Chinese (OtSC105) for the evolution of hieroglyphs. Using an inter-frame attention extraction algorithm, images were generated to achieve the visualization of hieroglyphic evolution from oracle bone inscriptions to modern Chinese characters. 
 
 用一两段话介绍这个项目以及它能做些什么。
 
