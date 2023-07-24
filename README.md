@@ -1,6 +1,6 @@
-# Project Title 项目名称
+# Visualizing the Process of Hieroglyphic Evolution with Inter-Frame Attention
 
-> 简单描述这个项目是什么。
+> We constructed a dataset called ”Oracle to Simplified Chinese” (OtSC105) for the evolution of the oracle bone script to simplified Chinese characters. An image generation algorithm based on EMA-VFI was employed to enable the visualization of the evolution process.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
