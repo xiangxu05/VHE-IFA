@@ -17,13 +17,13 @@ timm 0.6.11
 tqdm
 
 
-### Play with Demos
+## Play with Demos
 
 1. Download the model [checkpoints](https://drive.google.com/drive/folders/1McOO_yt_bPIf0Zk2Ypk9wESXRsXHNaL1?usp=drive_link)and put the ckpt folder into the root dir.
 2. Download the dataset [OtSC105](https://drive.google.com/drive/folders/1m4s5Lr2BnVDrhrJg_Pnz24xRn_p4fwcS?usp=drive_link) or your own pictures, then put it into the folder 'Sources'.
 3. Run the following commands to generate Nx (arbitrary) frame interpolation demos:
 
-```python --model /ours_t/ours --InputPath /Your/Dataset/Path --OutputPath /Your/Output/Path --n /Insert/Frames
+```python --model /ours_t/ours --InputPath /Your/Dataset/Path --OutputPath /Your/Output/Path --n /Insert/Frames```
 
 ### Installation 安装
 
