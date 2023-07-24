@@ -2,9 +2,8 @@
 
 > This study constructed a data set named Oracle to Simplified Chinese (OtSC105) for the evolution of hieroglyphs. Using an inter-frame attention extraction algorithm, images were generated to achieve the visualization of hieroglyphic evolution from oracle bone inscriptions to modern Chinese characters. 
 
-用一两段话介绍这个项目以及它能做些什么。
 
-![](https://github.com/dbader/readme-template/raw/master/header.png)
+![](https://github.com/xiangxu05/VHE-IFA.git/figs/example1.gif)
 
 ## Getting Started 使用指南
 
