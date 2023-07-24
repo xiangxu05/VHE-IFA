@@ -8,13 +8,13 @@
 ## Getting Started
 
 We need the following listed environments：
-torch 1.8.0
-python 3.8
-skimage 0.19.2
-numpy 1.23.1
-opencv-python 4.6.0
-timm 0.6.11
-tqdm
+- torch 1.8.0
+- python 3.8
+- skimage 0.19.2
+- numpy 1.23.1
+- opencv-python 4.6.0
+- timm 0.6.11
+- tqdm
 
 
 ## Play with Demos
