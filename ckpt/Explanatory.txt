@@ -1,0 +1,1 @@
+You should place the downloaded model or the self retrained model in this folder.
