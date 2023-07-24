@@ -24,7 +24,7 @@ We need the following listed environments：
 3. Run the following commands to generate Nx (arbitrary) frame interpolation demos:
 
 ```sh
-python --model /ours_t/ours --InputPath /Your/Dataset/Path --OutputPath /Your/Output/Path --n /Insert/Frames
+python Generate_from_dataset.py --model /ours_t/ours --InputPath /Your/Dataset/Path --OutputPath /Your/Output/Path --n /Insert/Frames
 ```
 
 
@@ -34,6 +34,6 @@ python --model /ours_t/ours --InputPath /Your/Dataset/Path --OutputPath /Your/Ou
 2. Download the model [checkpoints](https://drive.google.com/drive/folders/1McOO_yt_bPIf0Zk2Ypk9wESXRsXHNaL1?usp=drive_link) and put the ckpt folder into the root dir.
 3. For 2x interpolation benchmarks:
    ```sh
-   python --model /ours/ours_small --path /Your/Dataset/Path
+   python OtSC105.py --model /ours/ours_small --path /Your/Dataset/Path
    ```
 
