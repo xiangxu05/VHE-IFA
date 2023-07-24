@@ -34,6 +34,6 @@ python --model /ours_t/ours --InputPath /Your/Dataset/Path --OutputPath /Your/Ou
 2. Download the model [checkpoints](https://drive.google.com/drive/folders/1McOO_yt_bPIf0Zk2Ypk9wESXRsXHNaL1?usp=drive_link) and put the ckpt folder into the root dir.
 3. For 2x interpolation benchmarks:
    ```sh
-python --model /ours/ours_small --path /Your/Dataset/Path
-```
+   python --model /ours/ours_small --path /Your/Dataset/Path
+   ```
 
