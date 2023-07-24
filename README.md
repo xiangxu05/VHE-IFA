@@ -3,19 +3,27 @@
 > This study constructed a data set named Oracle to Simplified Chinese (OtSC105) for the evolution of hieroglyphs. Using an inter-frame attention extraction algorithm, images were generated to achieve the visualization of hieroglyphic evolution from oracle bone inscriptions to modern Chinese characters. 
 
 
-![he Evolution of the Character ”Zao”(meaning early)](./figs/example1.gif)
+![The Evolution of the Character ”Zao”(meaning early)](./figs/example1.gif)
+![The Evolution of the Character ”Qiu”(meaning imprisonment)](./figs/example2.gif)
+## Getting Started
 
-## Getting Started 使用指南
+We need the following listed environments：
+torch 1.8.0
+python 3.8
+skimage 0.19.2
+numpy 1.23.1
+opencv-python 4.6.0
+timm 0.6.11
+tqdm
 
-项目使用条件、如何安装部署、怎样运行使用以及使用演示
 
-### Prerequisites 项目使用条件
+### Play with Demos
 
-你需要安装什么软件以及如何去安装它们。
+1. Download the model [checkpoints](https://drive.google.com/drive/folders/1McOO_yt_bPIf0Zk2Ypk9wESXRsXHNaL1?usp=drive_link)and put the ckpt folder into the root dir.
+2. Download the dataset [OtSC105](https://drive.google.com/drive/folders/1m4s5Lr2BnVDrhrJg_Pnz24xRn_p4fwcS?usp=drive_link) or your own pictures, then put it into the folder 'Sources'.
+3. Run the following commands to generate Nx (arbitrary) frame interpolation demos:
 
-```
-Give examples
-```
+```python --model /ours_t/ours --InputPath /Your/Dataset/Path --OutputPath /Your/Output/Path --n /Insert/Frames
 
 ### Installation 安装
 
